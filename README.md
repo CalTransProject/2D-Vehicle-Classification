@@ -40,8 +40,9 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com) 
 
-This repository holds the code for our 2D vehicle classification model, a key part of our Real-Time Traffic Management (RTTM) web application. To explore the full RTTM project, check out the link provided.
+This repository holds the code for our 2D vehicle classification model, a key part of our Real-Time Traffic Management (RTTM) system. To explore the full RTTM project, check out the provided links:
 * [RTTM](https://github.com/CalTransProject/rttm)
+* [3D Object Detection Research Project](https://arcs.center/3d-object-detection-and-vehicle-classification-based-on-lidar-point-clouds-for-real-time-traffic-flow-monitoring/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -121,8 +122,8 @@ Robin Rosculete - [linkedin](https://www.linkedin.com/in/robin-rosculete-b516412
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
+* [Professor Xunfei Jiang](https://www.csun.edu/~xjiang/)
+* [CSUN-ARCS](https://arcs.center/)
 * [Geeks-For-Geeks-Program-to-extract-frames-using-OpenCV](https://www.geeksforgeeks.org/python-program-extract-frames-using-opencv/)
 * [Ultralytics](https://docs.ultralytics.com/)
 
