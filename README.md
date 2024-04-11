@@ -118,6 +118,36 @@ Robin Rosculete - [linkedin](https://www.linkedin.com/in/robin-rosculete-b516412
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- File Structure -->
+## File Structure
+```
+   .
+    ├── Configuration-Files # Directory consisting of both testing and training configuration files.
+    │   ├── config_test.yaml  # Config file for testing. Testing data is set as the validation to enable the use of model.val() for testing on new data.
+    │   └── config_train.yaml  # Config file for training and validation during training. 
+    ├── images  # Images used in the readme.md file                   
+    │   ├── logo.png       
+    │   └── screenshot.png                    
+    ├── model # Directory holding the models obtained after training the YoloV8 model on our data
+    │   ├── Newest-YoloV8-2D-Vehicle-Classification-Model.pt # Model trained on the dataset collected and labeled in 2023 - 2024
+    │   └── Old-YoloV8-2D-Vehicle-Classification-Model.pt  # Model trained on the dataset collected and labeled in 2022 - 2023
+    ├── notebooks # Directory holding the notebooks 
+    │   ├── runs/detect # Results from training, validation, and testing the model
+    │   │   ├── train # Training and validation (during training) result in images and also weights of the last trained model
+    │   │   │   ├── weights # Model weights after training
+    │   │   │   │   ├── best.pt # Weights for the model at the best epoch
+    │   │   │   │   └── last.pt # Weights for the model at the last epoch
+    │   │   │   ├── ... # Files and images consisting of results from training and validation
+    │   │   ├── val # Results from testing the model on new data, it is called val because of the model.val() was used as a workaround for testing with a different config file
+    │   │   │   └── ... # Files and images consisting of results from testing the model
+    │   ├── AutoLabeling.ipynb # Notebook containing the Autolabeling code used to label new data
+    │   ├── Extract-Frames.ipynb # Notebook containing code for breaking collected video data into frames
+    │   └── vehicle-classification-using-yolo-v8.ipynb # Notebook containing the code for both training and testing code (main notebook of model)
+    ├── .gitignore
+    └── README.md
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
